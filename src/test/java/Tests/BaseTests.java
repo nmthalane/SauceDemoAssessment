@@ -13,7 +13,7 @@ public class BaseTests {
 
     BrowserFactory browserFactory = new BrowserFactory();
 
-    final WebDriver driver = browserFactory.startBrowser("Chrome", "https://www.saucedemo.com");
+    final WebDriver driver = browserFactory.startBrowser("firefox", "https://www.saucedemo.com");
 
     LoginPage loginPage = PageFactory.initElements(driver, LoginPage.class);
     HomePage homePage = PageFactory.initElements(driver, HomePage.class);
