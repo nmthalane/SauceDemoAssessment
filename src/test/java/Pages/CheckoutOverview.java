@@ -67,7 +67,7 @@ public class CheckoutOverview {
         ;
         double total = Double.parseDouble(total_Label);
         ;
-        double tax_rate = 0.09;
+        double tax_rate = 0.08;
 
         double total_plus_tax = itemTotal * tax_rate + itemTotal;
         // Create a DecimalFormat object with the desired format
